@@ -1,3 +1,15 @@
+#settings
+.settings/
+
+#metadata
+.metadata/
+
+#Debug
+Debug/
+debug/
+Release/
+release
+
 # Prerequisites
 *.d
 
@@ -6,10 +18,16 @@
 *.lo
 *.o
 *.obj
+*.elf
 
 # Precompiled Headers
 *.gch
 *.pch
+
+# Linker output
+*.ilk
+*.map
+*.exp
 
 # Compiled Dynamic libraries
 *.so
@@ -26,7 +44,23 @@
 *.a
 *.lib
 
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
 # Executables
 *.exe
 *.out
 *.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
